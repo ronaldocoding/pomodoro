@@ -50,6 +50,8 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.koin.android)
+    implementation(libs.koin.androidx.compose)
+    implementation(libs.koin.androidx.compose.navigation)
     testImplementation(libs.junit)
     testImplementation(libs.koin.test)
     androidTestImplementation(libs.androidx.junit)
